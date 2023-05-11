@@ -3,6 +3,9 @@ This repository creates an EKS cluster via Tanzu Mission Control (TMC). In the p
 
 You can check in [variables.tf](./variables.tf) the required variables for this module and the defaults for some of them
 
+## Initialize terraform modules
+In order to be able to execute this module, you need to initialize terraform modules
+
 ## How to create
 
 - Edit your specific variables for your install creating a `.tfvars` file with these variables and the values appropriate for your setup:
